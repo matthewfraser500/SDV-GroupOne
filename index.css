@@ -21,3 +21,24 @@ word-wrap: break-word;
 filter: alpha(opacity=40);
  }
 
+ .grid-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.grid-item {
+  width:  80%;
+  height: 170%;
+  opacity: 0.4;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  filter: alpha(opacity=40);
+  align-content: center;
+  box-sizing: border-box;
+}
